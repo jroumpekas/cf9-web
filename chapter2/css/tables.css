@@ -1,0 +1,21 @@
+th, td, tableD{
+    border: 2px solid black;
+    
+}
+tfoot td {
+    font-weight: bold;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 500px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+h1{
+    text-align: center;
+    
+}

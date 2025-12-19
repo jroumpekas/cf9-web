@@ -1,0 +1,46 @@
+body{
+    background-color: gray
+}
+
+p, h1 {
+    color: darkblue;
+    background-color: pink;
+
+}
+
+p {
+    color: yellow !important
+}
+
+.title-text {
+    font-size: 48px;
+    text-align: center;
+    color:brown
+}
+
+.aueb-logo, img[alt="AUEB Logo"] {
+    width: 800px;      
+    max-width: 100%;   
+    height: auto;
+    display: block;
+    margin: 0 auto;   
+} 
+
+.cf-text{
+    background-color: grey;
+    color: green;
+} 
+
+ul a{
+    color: red
+    
+}
+    
+ol > li{
+    color: blue
+}
+
+h1 + p{
+    background-color: black;
+    color: red;
+}
