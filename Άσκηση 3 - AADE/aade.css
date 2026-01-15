@@ -1,0 +1,132 @@
+/* reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #d9d9d9;
+}
+
+/* center page */
+.page{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 28px 12px;
+}
+
+/* card like 2nd image */
+.card{
+  width: 100%;
+  max-width: 860px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.25);
+  overflow: hidden;
+}
+
+/* logos row */
+.top-logos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px;
+  gap: 16px;
+}
+
+.top-logos img{
+  height: 72px;
+  width: auto;
+  display: block;
+}
+
+/* main blue bar title */
+.main-header{
+  background: #5c7ea6;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  padding: 18px 10px;
+}
+
+/* content */
+.content{
+  text-align: center;
+  padding: 22px 22px 10px;
+}
+
+.second-header{
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.info{
+  font-size: 18px;
+  margin: 8px 0 14px;
+}
+
+.divider{
+  width: 80%;
+  height: 1px;
+  background: #d0d0d0;
+  margin: 16px auto 18px;
+}
+
+/* form block */
+.dimosia-dioikisi{
+  width: 380px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left; /* <-- labels left */
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.form-group label{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.form-group input{
+  width: 100%;
+  height: 34px;
+  border: 1px solid #999;
+  padding: 6px 10px;
+}
+
+/* submit button */
+#submit{
+  width: 100%;
+  height: 44px;
+  border: none;
+  border-radius: 6px;
+  background: #2f74ad;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#submit:hover{
+  filter: brightness(0.95);
+}
+
+/* footer */
+footer{
+  text-align: center;
+  padding: 18px 16px 22px;
+}
+
+footer a{
+  color: #2f74ad;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
